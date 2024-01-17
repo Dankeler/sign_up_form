@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+@font-face {
+    font-family: 'Norse-Bold';
+    src: local('Norse-Bold'), url(/img/Norse-Bold.otf) format("opentype");
+}
+
+body,html {
+    font-family: "Roboto";
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+}
+
+.container {
+    display: flex;
+}
+
+#left {
+    min-width: 45vw;
+    height: 100vh;
+    background-image: url(img/photo-1585202900225-6d3ac20a6962.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#logo-div {
+    font-family: "Norse-Bold";
+    position: absolute;
+    width: 45vw;
+    text-align: center;
+    top: 20%;
+    background-color: rgba(43, 46, 48, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: white;
+}
+
+#logo {
+    height: 6rem;
+}
+
+#right {
+    min-width: 55vw;
+    background-color: #f1ece6
+}
+
+#right-inside {
+    position: relative;
+    padding: 30px;
+    margin-top: 5em;
+    min-width: 55vw;
+    background-color: white;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#left-inputs {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2em;
+    margin-top: 0.5em;
+}
+
+#right-inputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5em;
+}
+
+#form {
+    margin-top: 3em;
+}
+
+label {
+    font-size: 10px;
+}
+
+input {
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #E5E7EB;
+}
+
+input:focus {
+    border-color: rgb(87, 87, 255);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+#buttons {
+    padding: 30px;
+}
+
+#submit-button {
+    background-color: #596D48;
+    border-radius: 6px;
+    width: 160px;
+    height: 40px;
+}
+
+#error {
+    bottom: 10px;
+    position: absolute;
+    margin: 0px;
+    font-size: 12px;
+    color: red;
+}
+
+#password {
+    margin-bottom: 6px;
+}
+
+#text-text {
+    margin-right: 20px;
+    text-wrap:wrap;
+}
